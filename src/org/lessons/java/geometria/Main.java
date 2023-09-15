@@ -31,6 +31,8 @@ public class Main {
 					+ rettangoli.get(i).calcolaArea() + System.lineSeparator() + rettangoli.get(i).disegna());
 
 		System.out.println(System.lineSeparator() + System.lineSeparator() + "Arrivederci!");
+		
+		scanner.close();
 	}
 
 }
